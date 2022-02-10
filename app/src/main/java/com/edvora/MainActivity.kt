@@ -32,7 +32,6 @@ class MainActivity : ComponentActivity() {
 
     @Composable
     fun MainScreen() {
-        viewModel.paths.value.add(PathState(Path(), Color.Black))
         PaintScreen(viewModel = viewModel)
     }
 }
